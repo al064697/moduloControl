@@ -14,13 +14,12 @@ import java.util.Scanner;
  */
 
 public class ModuloControl {
+    
     /**
      * @param args the command line arguments
      */
     
     static Scanner entradaDato = new Scanner(System.in);
-    static String mensaje = "Estas en America, hogar de nuestro querido Mexico asi como tambien de"
-                          + "Estados Unidos, Canada y muchos otros mas!";
     
     public static void menu(){
         System.out.println("Que quieres hacer?");
