@@ -14,7 +14,6 @@ import java.util.Scanner;
  */
 
 public class ModuloControl {
-    
     /**
      * @param args the command line arguments
      */
