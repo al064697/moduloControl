@@ -61,7 +61,7 @@ public class Pais {
         System.out.print("ID: ");
         int ID=entradaDato.nextInt();
         pais.remove(ID);
-        System.out.println("El municipio se ha eliminado de forma exitosa");
+        System.out.println("El pais se ha eliminado de forma exitosa");
     }
     public static void ActualizarDatos(){
         System.out.println("Ingrese el ID del pais a actualizar");
