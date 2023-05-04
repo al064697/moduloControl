@@ -44,7 +44,7 @@ public class Continente {
         double Densidad = entradaDato.nextDouble();
         System.out.println("");
         continente.add(new continenteConstructor(ID, Nombre, Superficie, Poblacion, Densidad));
-        System.out.println("La localidad se ha agregado exitosamente");
+        System.out.println("El continente se ha agregado exitosamente");
     }
     public static void ActualizarDatos(){
         System.out.print("Ingrese el ID del continente a actualizar: ");
@@ -63,14 +63,14 @@ public class Continente {
         continente.get(ID).setSuperficie(Superficie);
         continente.get(ID).setPoblacion(Poblacion);
         continente.get(ID).setDensidad(Densidad);
-        System.out.println("Los datos de la localidad se han actualizado  correctamente");
+        System.out.println("Los datos del continente se han actualizado  correctamente");
     }
     public static void Eliminar(){
         System.out.println("Ingrese el ID del continente para eliminar");
         System.out.print("ID: ");
         int ID=entradaDato.nextInt();
         continente.remove(ID);
-        System.out.println("La localidad se ha eliminado de forma exitosa");
+        System.out.println("El continente se ha eliminado de forma exitosa");
     }
     public static void menu(){
         System.out.println("Que deseas hacer?");
